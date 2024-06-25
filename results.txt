@@ -1,0 +1,98 @@
+Queens :
+
+Best Fitness Score for N = 5 - RHC
+Params = Fitness: 10.0, Iteration: 500, Restart: 5, Attempt: 5, Time: 0.00049591064453125, FeVals Avg: 57269.59722222222
+Best Fitness Score for N = 10 - RHC
+Params = Fitness: 44.0, Iteration: 5000, Restart: 10, Attempt: 50, Time: 0.022566795349121094, FeVals Avg: 183279.71568627452
+Best Fitness Score for N = 50 - RHC
+Params = Fitness: 1213.5, Iteration: 5000, Restart: 10, Attempt: 50, Time: 1.2343838214874268, FeVals Avg: 441450.9171626984
+Best Fitness Score for N = 100 - RHC
+Params = Fitness: 4921.0, Iteration: 5000, Restart: 20, Attempt: 50, Time: 18.92293906211853, FeVals Avg: 664928.2764423077
+
+Best Fitness Score for N = 5 - SA
+Params = Fitness: 10.0, Schedule: ExpDecay, Attempt: 50, Temperature: 100, Time: 0.013966798782348633, FeVals Avg: 1200.2424477149495
+Best Fitness Score for N = 10 - SA
+Params = Fitness: 44.5, Schedule: ArithDecay, Attempt: 50, Temperature: 1, Time: 0.1594548225402832, FeVals Avg: 4364.166426858513
+Best Fitness Score for N = 50 - SA
+Params = Fitness: 1218.75, Schedule: ExpDecay, Attempt: 50, Temperature: 10, Time: 0.7291059494018555, FeVals Avg: 1171.3409645909646
+Best Fitness Score for N = 100 - SA
+Params = Fitness: 4933.5, Schedule: ExpDecay, Attempt: 50, Temperature: 100, Time: 7.518351793289185, FeVals Avg: 2389.433201419214
+
+Best Fitness Score for N = 5 - GA
+Params = Fitness: 10.0, Mut: 0.4, Attempt: 5, Pop: 100, Time: 0.01194906234741211, FeVals Avg: 573.1388888888889
+Best Fitness Score for N = 10 - GA
+Params = Fitness: 44.5, Mut: 0.1, Attempt: 30, Pop: 500, Time: 0.9516851902008057, FeVals Avg: 17917.75684931507
+Best Fitness Score for N = 50 - GA
+Params = Fitness: 1217.5, Mut: 0.2, Attempt: 30, Pop: 100, Time: 6.6210150718688965, FeVals Avg: 8456.682228915663
+Best Fitness Score for N = 100 - GA
+Params = Fitness: 4932.25, Mut: 0.4, Attempt: 30, Pop: 200, Time: 103.76204085350037, FeVals Avg: 27962.847826086956
+
+
+Continuous Peaks:
+
+RHC
+Best Fitness Score for N = 10 - RHC
+Params = Fitness: 18.0, Iteration: 1000, Restart: 0, Attempt: 30, Diff: 0.0002942085266113281, FeVals Avg: 10098.566666666668
+Best Fitness Score for N = 25 - RHC
+Params = Fitness: 46.0, Iteration: 1000, Restart: 5, Attempt: 100, Diff: 0.009887933731079102, FeVals Avg: 51594.35699588477
+Best Fitness Score for N = 50 - RHC
+Params = Fitness: 94.0, Iteration: 5000, Restart: 5, Attempt: 1000, Diff: 0.08781909942626953, FeVals Avg: 770102.7052594003
+Best Fitness Score for N = 100 - RHC
+Params = Fitness: 188.5, Iteration: 10000, Restart: 20, Attempt: 1000, Diff: 1.3041069507598877, FeVals Avg: 3062598.6322518266
+
+SA:
+
+Best Fitness Score for N = 10 - SA
+Params = Fitness: 18.0, Schedule: ExpDecay, Attempt: 10000, Temperature: 100, Time: 0.08982610702514648, FeVals Avg: 6430.96967220357
+Best Fitness Score for N = 25 - SA
+Params = Fitness: 46.0, Schedule: GeomDecay, Attempt: 500, Temperature: 1, Time: 0.006671905517578125, FeVals Avg: 443.80632411067194
+Best Fitness Score for N = 50 - SA
+Params = Fitness: 94.0, Schedule: ExpDecay, Attempt: 500, Temperature: 1, Time: 0.018735885620117188, FeVals Avg: 1075.3379742962056
+Best Fitness Score for N = 100 - SA
+Params = Fitness: 189.0, Schedule: GeomDecay, Attempt: 500, Temperature: 100, Time: 0.08395504951477051, FeVals Avg: 4541.880820836622
+
+GA:
+Best Fitness Score for N = 10 - GA
+Params = Fitness: 18.0, Mut: 0.2, Attempt: 5, Pop: 100, Time: 0.01129913330078125, FeVals Avg: 580.9
+Best Fitness Score for N = 25 - GA
+Params = Fitness: 46.0, Mut: 0.3, Attempt: 30, Pop: 100, Time: 0.1108388900756836, FeVals Avg: 3579.7028985507245
+Best Fitness Score for N = 50 - GA
+Params = Fitness: 94.0, Mut: 0.4, Attempt: 20, Pop: 300, Time: 0.7663092613220215, FeVals Avg: 23873.543103448275
+Best Fitness Score for N = 100 - GA
+Params = Fitness: 185.25, Mut: 0.4, Attempt: 30, Pop: 300, Time: 2.387554168701172, FeVals Avg: 38299.53314393939
+
+
+
+Neural Network Params:
+
+RHC
+
+RHC Complete!!! Optimized Params and Scores below
+Time: 51.93539500236511
+Node: 16
+Learning rate: 0.01
+Restarts: 10
+Accuracy Score: 0.9247594050743657
+
+SA Complete!!! Optiomized Params and Scores below
+Time: 0.8772568702697754
+Node: 16
+Learning rate: 0.01
+Restarts: 2
+Accuracy Score: 0.9177602799650044
+
+GA Complete!!! Optiomized Params and Scores below
+Time: 53.17360806465149
+Node: 16
+Learning rate: 0.01
+Restarts: 2
+Population: 200
+Accuracy Score: 0.9230096237970253
+
+BP Complete!!! Optiomized Params and Scores below
+Time: 7.719084024429321
+Node: 16
+Learning rate: 0.01
+Restarts: 2
+Population: 100
+Best Accuracy Score: 0.916010498687664
